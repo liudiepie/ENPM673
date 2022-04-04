@@ -2,6 +2,18 @@
 This project is praticing how to use histogram equalizations and detect straight and curve lane lines.  
 The prerequirement is to place adaptive_hist_data, whiteline.mp4, and challenge.mp4 under the file.  
 The environment is based on python3, OpenCV, and numpy.  
+## Structure
+├── adaptive_hist_data
+├── challenge.mp4
+├── whiteline.mp4
+├── output1
+├── output2
+├── output3
+├── Proj2_1.py
+├── Proj2_2.py
+├── Proj2_3.py
+└── line.py
+
 ## Histogram equalizations
 To run the code, please type  
 ```bash
