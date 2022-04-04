@@ -14,7 +14,7 @@ Take an image for example:
 Original image  
 ![](output1/original.png) 
 Histogram equalizations image  
-![](output1/histogram.png) 
+![](output1/histrogram.png) 
 Adaptive histogram equalizations image  
 ![](output1/AHE.png) 
 ## Straight Lane Detection  
@@ -27,7 +27,7 @@ Take an image for example:
 Original image  
 ![](output2/solidWhiteRight.jpg)   
 Result image  
-![](output2/outpu2.jpg)  
+![](output2/output2.jpg)  
 ## Predict Turn  
 To run the code, please type  
 ```bash  
