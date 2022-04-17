@@ -26,6 +26,6 @@ Disparity heatmap
 Depth gray  
 ![](data/curule/depth.png) 
 Depth heatmap  
-![](data/curule/heatmap.png)   
+![](data/curule/heatdepth.png)   
 Those information could be viewed in following [link](https://drive.google.com/drive/folders/10e34TAw6BJ9skk570BSWG2RwWWBb9FsG?usp=sharing)  
 [Github Link](https://github.com/liudiepie/ENPM673/tree/main/Proj3)  
