@@ -296,7 +296,8 @@ def ComputeDepthImage(shape, disp_img, K, baseline):
     depth = np.zeros(shape=shape).astype(float)
     #apply focal * baseline / disparity to get depth
     depth[disp_img > 0] = (f * baseline) / (disp_img[disp_img > 0])
-    img_depth = ((depth/depth.max())*255).astype(np.uint8)
+    img = ((depth/depth.max())*255).astype(np.uint8)
+    img_depth = cv2.equalizeHist(img)
     #utilize colormap to get heatmap
     heatmap = cv2.applyColorMap(img_depth, cv2.COLORMAP_HOT)
     cv2.imwrite("depth.png", img_depth)
